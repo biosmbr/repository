@@ -1,0 +1,15 @@
+15:32:26 **** Build of configuration Debug for project c_demo ****
+make all 
+Building file: ../src/c_demo.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/c_demo.d" -MT"src/c_demo.o" -o "src/c_demo.o" "../src/c_demo.c"
+Finished building: ../src/c_demo.c
+ 
+Building target: c_demo
+Invoking: GCC C Linker
+gcc  -o "c_demo"  ./src/c_demo.o   
+Finished building target: c_demo
+ 
+15:32:35 **** Incremental Build of configuration Debug for project c_demo ****
+make all 
+make: Nothing to be done for `all'.
